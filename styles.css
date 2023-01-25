@@ -1,7 +1,77 @@
-/* You can delete / re-write this img class  */
+:root {
+    --coral:    #F05D5E;
+    --teal:     #0F7173;
+    --light:    #E7ECEF;
+    --white:    #ffffff;
+    --dark:     #272932;
+    --camel:    #D8A47F;
+    --bluemsh : #4174c0;
+    --reddy :   #d61010;
+    --pinky :   #eb30b3;
+    --navy :    #1327dd;
+    --melon :   #e9ec08;
+
+}
+head{
+    font-size: 2.5rem;
+}
+
+.head--center{
+
+    margin: 3rem 2.5rem;
+    padding: 0rem 3rem 0rem 3rem;
+    text-align: center;
+
+}
+
+.container{
+
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem 1.5rem;
+    background-color:var(--reddy);
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+}
+
+.container-sith{
+    background-color: var(--camel);
+
+}
+
+.container-jedi{
+    background-color: var(--teal);
+}
+
+.card {
+    padding: 1.35rem;
+    margin: 1.40rem;
+    border: 0.5rem solid;
+    transition: 0.3s;
+}
+
+.card-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem 1.5rem;
+    background-color:var(--pinky);
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+}
+
+.card--sith{
+    background-color: var(--dark);
+}
+
+
+.card--jedi{
+    background-color: var(--light);
+}
+
+
 
 img {
     max-width: 200px;
 }
-
-/* Happy coding! */
