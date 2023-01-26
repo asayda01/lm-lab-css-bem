@@ -10,68 +10,88 @@
     --pinky :   #eb30b3;
     --navy :    #1327dd;
     --melon :   #e9ec08;
-
-}
-head{
-    font-size: 2.5rem;
 }
 
-.head--center{
+.heading {
+    font-size: 3.5rem;
+}
 
-    margin: 3rem 2.5rem;
-    padding: 0rem 3rem 0rem 3rem;
+.heading--center{
+    color: #EBD71C;
+    background-color: #000;
+    border-color: #D2BE03;
+    border: 0.15rem solid;
     text-align: center;
-
 }
 
-.container{
 
-    width: 90%;
+.container {
+    width: 80%;
+    height: 40%;
     margin: 0 auto;
-    padding: 1rem 1.5rem;
-    background-color:var(--reddy);
     display: flex;
-    flex-direction: column;
+    align-items: flex-start;
+    flex-direction: row;
     flex-flow: wrap;
+    justify-content: space-evenly;
 }
 
-.container-sith{
-    background-color: var(--camel);
-
+.container--title{
+    font-size: 2rem;
+    text-align: center;
 }
 
-.container-jedi{
+.container--title--sith{
+    color: var(--dark);
+    border: 0.15rem solid;
+    border-color: var(--pinky);
+}
+
+.container--title--jedi{
+    color: var(--light);
+    border: 0.15rem solid;
+    border-color: var(--bluemsh);
+}
+.container--sith{
+    float: left;
+    background-color: #484849;
+    border: 0.25rem solid;
+    border-color: var(--dark);
+}
+
+.container--jedi{
+    float: right;
+    border: 0.25rem solid;
+    border-color: var(--light);
     background-color: var(--teal);
 }
 
 .card {
     padding: 1.35rem;
-    margin: 1.40rem;
+    margin: 1%;
     border: 0.5rem solid;
-    transition: 0.3s;
-}
-
-.card-container {
-    width: 90%;
-    margin: 0 auto;
-    padding: 1rem 1.5rem;
-    background-color:var(--pinky);
-    display: flex;
-    flex-direction: column;
-    flex-flow: wrap;
+    max-width: 240px;
+    min-width: 240px;
+    max-height: 440px;
+    min-height: 440px;
+    border-radius: 25px;
+    text-align: center;
 }
 
 .card--sith{
     background-color: var(--dark);
+    border-color: #36383d;
+    border : 0.25rem solid;
 }
-
 
 .card--jedi{
     background-color: var(--light);
+    border-color: var(--bluemsh);
+    
 }
 
-
-
-img {
-    max-width: 200px;
+.images {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
