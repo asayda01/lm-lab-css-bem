@@ -14,13 +14,13 @@
 
 .heading {
     font-size: 3.5rem;
-}
-
-.heading--center{
     color: #EBD71C;
     background-color: #000;
     border-color: #D2BE03;
     border: 0.15rem solid;
+}
+
+.heading__center{
     text-align: center;
 }
 
@@ -36,20 +36,19 @@
     justify-content: space-evenly;
 }
 
-.container--title{
+.container__title{
     font-size: 2rem;
     text-align: center;
+    border: 0.15rem solid;
 }
 
-.container--title--sith{
+.container__title--sith{
     color: var(--dark);
-    border: 0.15rem solid;
     border-color: var(--pinky);
 }
 
-.container--title--jedi{
+.container__title--jedi{
     color: var(--light);
-    border: 0.15rem solid;
     border-color: var(--bluemsh);
 }
 .container--sith{
@@ -87,7 +86,6 @@
 .card--jedi{
     background-color: var(--light);
     border-color: var(--bluemsh);
-    
 }
 
 .images {
